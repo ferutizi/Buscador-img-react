@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ferutizi/Buscador-img-react/static/css/main.e6c13ad2.css",
-    "main.js": "/ferutizi/Buscador-img-react/static/js/main.991644f1.js",
-    "static/js/787.715a60cc.chunk.js": "/ferutizi/Buscador-img-react/static/js/787.715a60cc.chunk.js",
-    "index.html": "/ferutizi/Buscador-img-react/index.html",
-    "main.e6c13ad2.css.map": "/ferutizi/Buscador-img-react/static/css/main.e6c13ad2.css.map",
-    "main.991644f1.js.map": "/ferutizi/Buscador-img-react/static/js/main.991644f1.js.map",
-    "787.715a60cc.chunk.js.map": "/ferutizi/Buscador-img-react/static/js/787.715a60cc.chunk.js.map"
+    "main.css": "/Buscador-img-react/static/css/main.e6c13ad2.css",
+    "main.js": "/Buscador-img-react/static/js/main.b15876ed.js",
+    "static/js/787.715a60cc.chunk.js": "/Buscador-img-react/static/js/787.715a60cc.chunk.js",
+    "index.html": "/Buscador-img-react/index.html",
+    "main.e6c13ad2.css.map": "/Buscador-img-react/static/css/main.e6c13ad2.css.map",
+    "main.b15876ed.js.map": "/Buscador-img-react/static/js/main.b15876ed.js.map",
+    "787.715a60cc.chunk.js.map": "/Buscador-img-react/static/js/787.715a60cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.991644f1.js"
+    "static/js/main.b15876ed.js"
   ]
 }
