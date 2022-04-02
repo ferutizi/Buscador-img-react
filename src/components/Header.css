@@ -1,0 +1,12 @@
+.header {
+    margin-bottom: 50px;
+    padding: 15px 10px;
+    background-color: rgba(169, 211, 233, 0.5);
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.3);
+}
+
+.header input {
+  margin: 15px 10px;
+  font-size: 18px;;
+}

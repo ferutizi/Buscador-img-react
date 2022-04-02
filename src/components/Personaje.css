@@ -1,0 +1,35 @@
+.card {
+    transition: all 0.3s ease;
+    margin: 50px 0;
+    background-color: #eee;
+    border: 1px solid #999;
+    width: 300px;
+    max-width: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    width: 320px;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    background-color: #fff;
+    display: block;
+    width: 330px;
+    margin: 10px auto 0;
+}

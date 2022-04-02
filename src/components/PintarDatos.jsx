@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Personaje from "./Personaje"
+import './PintarDatos.css'
 
 const PintarDatos = ({personaje}) => {
 
@@ -16,7 +17,7 @@ const PintarDatos = ({personaje}) => {
             console.log(personaje)
 
             if(!res.ok) {
-                alert('Personaje no encontrado')
+               return alert('Personaje no encontrado')
             }
 
             const datos = await res.json()
@@ -31,7 +32,7 @@ const PintarDatos = ({personaje}) => {
     }
 
     return(
-        <div>
+        <div className="container">
             {
                 personajes.map(item => (
                     <Personaje key={item.id} personaje={item} />

@@ -1,4 +1,5 @@
 import useFormulario from "../hooks/useFormulario"
+import './Formulario.css'
 
 const Formulario = ({setPersonaje}) => {
 
@@ -21,7 +22,6 @@ const Formulario = ({setPersonaje}) => {
 
     return(
         <>
-            <h1>App personajes de Rick and Morty</h1>
             <form onSubmit={handleSubmit}>
                 <input
                 name="name"
