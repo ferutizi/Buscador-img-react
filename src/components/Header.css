@@ -8,5 +8,11 @@
 
 .header input {
   margin: 15px 10px;
-  font-size: 18px;;
+  font-size: 18px;
+  padding: 2px 5px;
+  border-color: rgba(0, 0, 0,0.3);
+}
+
+h1 {
+  text-shadow: 1.5px 1.5px 1.5px hsla(201, 59%, 19%, 0.63);
 }
