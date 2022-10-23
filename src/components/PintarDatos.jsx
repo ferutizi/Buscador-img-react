@@ -5,6 +5,7 @@ import './PintarDatos.css'
 const PintarDatos = ({personaje}) => {
 
     const [personajes, setPersonajes] = useState([])
+    const [modal, setModal] = useState(false)
 
     useEffect(() => {
         consumirApi(personaje)
@@ -13,15 +14,12 @@ const PintarDatos = ({personaje}) => {
     const consumirApi = async(personaje) => {
         try {
             const res = await fetch(`https://rickandmortyapi.com/api/character/?name=${personaje}&status=alive`)
-            console.log(res)
-            console.log(personaje)
 
             if(!res.ok) {
-               return alert('Personaje no encontrado')
+                return alert('el personaje no se ha encontrado')
             }
 
             const datos = await res.json()
-            console.log(datos.results)
             setPersonajes(datos.results)
 
         } catch (error) {
@@ -32,6 +30,7 @@ const PintarDatos = ({personaje}) => {
     }
 
     return(
+        [modal, setModal],
         <div className="container">
             {
                 personajes.map(item => (
